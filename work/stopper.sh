@@ -1,2 +1,2 @@
 #!/bin/bash
-kill $(cat myproject/work/runner.pid)
+kill $(cat infra-repo/work/runner.pid)
