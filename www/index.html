@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Moin</title>
+    <script>
+      console.log("moin")
+      let myvariable = 7
+      let nocheine = "das ist eine Zeichenkette"
+      console.log("Wert von nocheine: "+ nocheine )
+      if( myvariable > 6 && myvariable === 7) {
+              console.log("ist groesser")
+            }
+      for(let i = 0; i < myvariable;++i) {
+              console.log("for: " + i)
+            }
+
+      let bedingung=false
+      let counter = 0
+      while (!bedingung) {
+              console.log("bedingung: "+bedingung)
+              if(counter === 7) {
+                      bedingung = true
+                    }
+              ++counter
+            }
+      
+      let arr = ["eins","zwei","drei"]
+      arr[3] = "vier"
+      for(let i = 0;i < arr.length;++i) 
+              console.log(arr[i])
+      
+      let obj = {}
+      obj.name = "Huy"
+      obj.nachname = "Tran"
+      console.log(obj)
+      
+      function compute(biszu,was) {
+              for(let i = 0; i < biszu;++i) {
+                      console.log(was +" "+ i)
+                    }
+            }
+      compute(10,"hallo")
+            
+    </script>
+  </head>
+
+  <body>
+    <h1 id='maincaption'>Meine Überschrift</h1>
+  </body>
+</html>
+
