@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <script>
+      function dosomething() {
+              console.log("moin")
+            }
+      var fkt = dosomething
+      var yafct = function() {console.log("tach");}
+      function exec (what) {
+              what()
+            }
+      exec(yafct)
+      exec(dosomething)
+      exec(function() {console.log("wow");})
+    </script>
+  </head>
+  <body>
+    <h1 id=myheader>Meine Überschrift</h1>
+    <div id=mycontent>
+
+    </div>
+  </body>
+</html>
