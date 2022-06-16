@@ -1,6 +1,5 @@
 #!/bin/bash
-dst=/var/www/html/$USER/php/
+dst=/var/www/html/$USER/
 cp -r www/* $dst
-curl -s https://informatik.hs-bremerhaven.de/$USER/php/
-url=https://informatik.hs-bremerhaven.de/$USER/php/
-curl -s "$url/index.php?name=Hanspeter"
+url=https://informatik.hs-bremerhaven.de/$USER/php
+

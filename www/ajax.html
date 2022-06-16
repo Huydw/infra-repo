@@ -1,19 +1,19 @@
-<!doctype html>
+<!Doctype html>
 <html>
   <head>
     <meta charset='utf-8'>
     <title>ajax</title>
     <script>
       function getText() {
-              let xhr = new XMLHttpRequest()
-              xhr.onreadystatechange=function() {
-                      console.log(xhr.readyState+ "  " + xhr.status)
+              let xhr = new XMLHttpRequest
+              xhr.onreadystatechange = function () {
+                      console.log(xhr.readyState +"  "+ xhr.status)
                       if(xhr.readyState === 4 && xhr.status === 200) {
-                              console.log(xhr.responseText)
-                              document.getElementById("überschrift").innerHTML = xhr.responseText
-                            }
-                    }
-              xhr.open("GET","myText.txt")
+                              console.log(xhr.respondeText)
+                              document.getElementById("überschrift").innerHTML =xhr.responseText
+                            } 
+                     }
+              xhr.open("GET","mytext.txt")
               xhr.send()
             }
       getText()
@@ -21,6 +21,6 @@
     </script>
   </head>
   <body>
-    <h1 id='überschrift'>Meine Überschrift</h1>
+    <h1 id='überschrift'>Ajax</h1>
   </body>
 </html>
