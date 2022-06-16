@@ -1,0 +1,2 @@
+UI(DOM) --> ajax --> apache(cgi-server) --> ( tcp/ip/Email <--> php <--> cgi) --> mysql
+                                                         redis
