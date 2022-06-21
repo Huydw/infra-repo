@@ -1,11 +1,8 @@
 drop table if exists demo;
 create table demo (
-  id integer not null auto_increment,
-  name text,
-  PRIMARY KEY (id)
-);
+  demo_id int not null auto_increment,
+  name varchar(100),
+  primary key(demo_id));
 
-insert into demo (name) values ('jeder'),('name');
-delete from demo where name= 'name';
-update demo set name='jede' where name='jeder';
+insert into demo (name) values ('peter'),('paul'),('mary');
 select * from demo;
